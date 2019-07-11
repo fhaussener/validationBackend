@@ -1,0 +1,35 @@
+{
+  "StarbucksUser": {
+    "starbucks": {
+      "title": "starbucks",
+      "info": "Starbucks is a company",
+      "videoUrl": "https://d23dyxeqlo5psv.cloudfront.net/big_buck_bunny.mp4",
+      "location": {
+        "latitude": 47.38061163,
+        "longitude": 8.53763223
+      },
+      "questions": {
+        "q1": {
+          "question": "Which one is correct team name in NBA?",
+          "options": [
+            "New York Bulls",
+            "Los Angeles Kings",
+            "Golden State Warriros",
+            "Huston Rocket"
+          ],
+          "answer": "Huston Rocket"
+        },
+        "q2": {
+          "question": "Which one is correct team name in NBA?",
+          "options": [
+            "New York Bulls",
+            "Los Angeles Kings",
+            "Golden State Warriros",
+            "Huston Rocket"
+          ],
+          "answer": "Huston Rocket"
+        }
+      }
+    }
+  }
+}

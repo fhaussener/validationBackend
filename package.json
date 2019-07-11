@@ -1,0 +1,34 @@
+{
+  "name": "node-token-jwt",
+  "main": "server.js",
+  "scripts": {
+    "client": "cd client && yarn start",
+    "server": "nodemon server.js",
+    "dev": "concurrently --kill-others-on-fail \"yarn server\" \"yarn client\"",
+    "test": "mocha --timeout 10000"
+  },
+  "dependencies": {
+    "get-youtube-id": "*",
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "dotenv": "^5.0.0",
+    "express": "^4.16.2",
+    "express-validation": "^1.0.2",
+    "firebase-admin": "^5.8.0",
+    "joi": "^13.3.0",
+    "jsonwebtoken": "^8.1.0",
+    "mongoose": "^4.13.7",
+    "mongoose-slug-generator": "^1.0.4",
+    "morgan": "^1.9.0",
+    "randomstring": "^1.1.5",
+    "slug": "^0.9.1",
+    "slugs": "^0.1.3"
+  },
+  "devDependencies": {
+    "babel-preset-stage-1": "^6.24.1",
+    "chai": "^4.1.2",
+    "chai-http": "^3.0.0",
+    "concurrently": "^3.5.0",
+    "mocca": "^1.0.3"
+  }
+}
