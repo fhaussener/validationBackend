@@ -1,10 +1,10 @@
 # Validation Backend
 
-## Getting Started
+## What It does
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+It receives the HTTP-Requests from the validation-app. It has simple CRUD functionality to manage the coupon codes.
 
-### Prerequisites
+### What I learned
 
-What things you need to install the software and how to install them
+I learned to create a simple REST-API with Node.js + Express. In Addition I added some tests for testing the API. As a database I used MongoDB.
 
